@@ -20,7 +20,7 @@ https://nodejs.org/en/download/
 ```
 npm init
 npm install webpack
-``
+```
 
 ### Create a blank file
 
