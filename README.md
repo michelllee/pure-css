@@ -27,3 +27,11 @@ npm install webpack
 ```
 touch .gitignore
 ```
+
+### Run Scripts
+
+```
+npm run watch
+```
+
+http://localhost:8080
