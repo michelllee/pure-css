@@ -96,3 +96,14 @@ body {
     border-radius: 50%;
     background: yellow;
 }
+
+.nose {
+    position: absolute;
+    background: blueviolet;
+    width: 20%;
+    height: 30%;
+    top: 40%;
+    left: 40%;
+    border-radius: 50px;
+    z-index: 4;
+}
