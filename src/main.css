@@ -54,3 +54,13 @@ body {
     border-radius: 50%;
     z-index: 1;
 }
+
+.inner-ear {
+    position: absolute;
+    background: green;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-radius: 50%;
+}
