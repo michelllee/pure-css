@@ -60,7 +60,39 @@ body {
     background: green;
     width: 80%;
     height: 80%;
-    left: 10%;
+    right: 10%;
     top: 10%;
     border-radius: 50%;
+}
+
+.eye-left {
+    position: absolute;
+    background: pink;
+    width: 30%;
+    height: 30%;
+    left: 15%;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.eye-right {
+    position: absolute;
+    background: pink;
+    width: 30%;
+    height: 30%;
+    right: 15%;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.pupil {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+    border-radius: 50%;
+    background: yellow;
 }
