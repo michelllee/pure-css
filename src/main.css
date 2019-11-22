@@ -70,7 +70,7 @@ body {
     background: pink;
     width: 30%;
     height: 30%;
-    left: 15%;
+    left: 20%;
     top: 25%;
     border-radius: 50%;
     z-index: 3;
@@ -81,7 +81,7 @@ body {
     background: pink;
     width: 30%;
     height: 30%;
-    right: 15%;
+    right: 20%;
     top: 25%;
     border-radius: 50%;
     z-index: 3;
