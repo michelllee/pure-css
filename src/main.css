@@ -107,3 +107,25 @@ body {
     border-radius: 50px;
     z-index: 4;
 }
+
+.hair-left {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: -10%;
+    left: 30%;
+    background: orchid;
+    z-index: 1;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.hair-right {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: -5%;
+    right: 30%;
+    background: rgb(12, 20, 95);
+    z-index: 1;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
