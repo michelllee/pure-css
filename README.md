@@ -37,3 +37,5 @@ npm run watch
 http://localhost:8080
 
 https://caniuse.com/#feat=css-clip-path
+
+https://github.com/webpack-contrib/sass-loader

@@ -1,5 +1,10 @@
+// colors
+$lightpink: #FFE2F8;
+// shapes
+$circle: 50%;
+$rounded-rectangle: 50px;
 body {
-    background: #25A9FC;
+    background: $lightpink;
 }
 
 .box {
@@ -20,7 +25,7 @@ body {
     width: 50%;
     height: 67%;
     background: #A6BECF;
-    border-radius: 50%;
+    border-radius: $circle;
     outline: 1px dotted black;
 }
 
@@ -29,7 +34,7 @@ body {
     height: 100%;
     position: absolute;
     background: #A6BECF;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 2;
 }
 
@@ -40,7 +45,7 @@ body {
     left: -20%;
     top: 5%;
     background: yellow;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 1;
 }
 
@@ -51,7 +56,7 @@ body {
     right: -20%;
     top: 5%;
     background: purple;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 1;
 }
 
@@ -62,7 +67,7 @@ body {
     height: 80%;
     right: 10%;
     top: 10%;
-    border-radius: 50%;
+    border-radius: $circle;
 }
 
 .eye-left {
@@ -72,7 +77,7 @@ body {
     height: 30%;
     left: 20%;
     top: 25%;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 3;
 }
 
@@ -83,7 +88,7 @@ body {
     height: 30%;
     right: 20%;
     top: 25%;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 3;
 }
 
@@ -93,7 +98,7 @@ body {
     height: 30%;
     top: 35%;
     left: 35%;
-    border-radius: 50%;
+    border-radius: $circle;
     background: yellow;
 }
 
@@ -104,7 +109,7 @@ body {
     height: 30%;
     top: 40%;
     left: 40%;
-    border-radius: 50px;
+    border-radius: $rounded-rectangle;
     z-index: 4;
 }
 
