@@ -3,6 +3,7 @@ $lightpink: #FFE2F8;
 // shapes
 $circle: 50%;
 $rounded-rectangle: 50px;
+$triangle: polygon(50% 0%, 0% 100%, 100% 100%);
 body {
     background: $lightpink;
 }
@@ -121,7 +122,8 @@ body {
     left: 30%;
     background: orchid;
     z-index: 1;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    -webkit-clip-path: $triangle;
+    clip-path: $triangle;
 }
 
 .hair-right {
@@ -132,5 +134,6 @@ body {
     right: 30%;
     background: rgb(12, 20, 95);
     z-index: 1;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    -webkit-clip-path: $triangle;
+    clip-path: $triangle;
 }
