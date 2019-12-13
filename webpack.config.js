@@ -43,6 +43,10 @@ module.exports = {
             template: 'src/index.html',
             filename: 'index.html'
         }),
+        new HtmlWebpackPlugin({
+            template: 'src/pug.pug',
+            filename: 'pug.html'
+        }),
 
         new MiniCssExtractPlugin({
             // Options similar to the same options in webpackOptions.output
