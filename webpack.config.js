@@ -3,6 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
+    entry: {
+        koala: './src/index.js',
+        pizza: './src/pizza.js'
+    },
     devServer: {
         contentBase: path.join(__dirname, 'dist')
     },
@@ -41,11 +45,18 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'src/index.html',
+            chunks: ['koala'],
             filename: 'index.html'
         }),
         new HtmlWebpackPlugin({
+            chunks: ['koala'],
             template: 'src/pug.pug',
             filename: 'pug.html'
+        }),
+        new HtmlWebpackPlugin({
+            chunks: ['pizza'],
+            template: 'src/pizza.pug',
+            filename: 'pizza.html'
         }),
 
         new MiniCssExtractPlugin({

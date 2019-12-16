@@ -1,0 +1,22 @@
+body {
+    background: #FFB20F;
+}
+
+.box {
+    border: 1px solid green;
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.pizza {
+    height: 50%;
+    width: 31%; // x * 800px = 250px
+    //border-radius: 40%;
+    background: red;
+    position: absolute;
+    left: 34.5%;
+    top: 25%;
+}
