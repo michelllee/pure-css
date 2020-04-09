@@ -1,5 +1,5 @@
 body {
-    background: #FFB20F;
+    background-color: whitesmoke;
 }
 
 .box {
@@ -9,14 +9,48 @@ body {
     position: relative;
     margin: auto;
     margin-top: 8%;
+    background: #973232;
 }
 
 .pizza {
     height: 50%;
     width: 31%; // x * 800px = 250px
-    //border-radius: 40%;
-    background: red;
+    border-radius: 50%;
+    background: #fbe4a5;
     position: absolute;
     left: 34.5%;
     top: 25%;
 }
+
+.sauce {
+    height: 85%;
+    width: 85%;
+    border-radius: 50%;
+    background: #fd7957;
+    position: absolute;
+    left: 7.5%; // 100-percentage of width and then divide by 2
+    top: 7.5%; // 100-percentage of height and then divide by 2
+}
+
+.cheese {
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    background: #ffffff;
+    position: absolute;
+    left: 18%; // 
+    top: 18%; // 
+}
+
+
+/*
+85%+7.5%=92.5%
+
+height 92.5%
+width 92.5%%
+c is the radius 46.25%
+a^2 + b^2 = 46.25^2
+2a^2 = 42.5^2
+a = 32.7
+left = 50 - 32.7 = 17.3
+*/

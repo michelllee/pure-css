@@ -39,3 +39,10 @@ http://localhost:8080
 https://caniuse.com/#feat=css-clip-path
 
 https://github.com/webpack-contrib/sass-loader
+
+### Dead-center Formula
+
+```
+top = (100% - height) / 2
+left = (100% - width) / 2
+```
