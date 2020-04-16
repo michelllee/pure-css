@@ -4,8 +4,8 @@ body {
 
 .box {
     border: 1px solid green;
-    height: 500px;
-    width: 800px;
+    height: 250px;
+    width: 400px;
     position: relative;
     margin: auto;
     margin-top: 8%;
@@ -42,15 +42,12 @@ body {
     top: 18%; // 
 }
 
-
-/*
-85%+7.5%=92.5%
-
-height 92.5%
-width 92.5%%
-c is the radius 46.25%
-a^2 + b^2 = 46.25^2
-2a^2 = 42.5^2
-a = 32.7
-left = 50 - 32.7 = 17.3
-*/
+@media (min-width: 800px) {
+    .box {
+        height: 500px;
+        width: 800px;
+    }
+    .cheese {
+        background: green;
+    }
+}
