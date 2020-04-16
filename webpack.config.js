@@ -5,7 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: {
         koala: './src/index.js',
-        pizza: './src/pizza.js'
+        pizza: './src/pizza.js',
+        diamond: './src/diamond.js'
     },
     devServer: {
         contentBase: path.join(__dirname, 'dist')
@@ -57,6 +58,11 @@ module.exports = {
             chunks: ['pizza'],
             template: 'src/pizza.pug',
             filename: 'pizza.html'
+        }),
+        new HtmlWebpackPlugin({
+            chunks: ['diamond'],
+            template: 'src/diamond.pug',
+            filename: 'diamond.html'
         }),
 
         new MiniCssExtractPlugin({
