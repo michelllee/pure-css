@@ -1,13 +1,41 @@
+///* HEX */
+$cyber-yellow: #fdd231;
+$banana-mania: #feeeb7;
+$spanish-orange: #ea6c00;
+$chinese-yellow: #fdad00;
+$russian-violet: #210e3d;
 body {
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .box {
-    border: 1px solid green;
     height: 500px;
     width: 800px;
     position: relative;
     margin: auto;
     margin-top: 8%;
-    background: blue;
+    background: $russian-violet;
 }
+
+.toptriangle {
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    background: $banana-mania;
+    left: 40%;
+    top: 10%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.bottomtriangle {
+    height: 50%;
+    width: 20%;
+    position: absolute;
+    background: $cyber-yellow;
+    left: 40%;
+    top: 45%;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+//top = (100% - height) / 2
+//left = (100% - width) / 2//
