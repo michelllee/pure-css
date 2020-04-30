@@ -19,23 +19,72 @@ body {
 
 .toptriangle {
     height: 35%;
-    width: 20%;
+    width: 30%;
     position: absolute;
     background: $banana-mania;
-    left: 40%;
+    left: 35%;
     top: 10%;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-.bottomtriangle {
-    height: 50%;
-    width: 20%;
+.toprightinnertriangle {
+    height: 35%;
+    width: 15%;
     position: absolute;
     background: $cyber-yellow;
-    left: 40%;
+    right: 35%;
+    top: 10%;
+    clip-path: polygon(100% 100%, 0 0, 100% 15%);
+}
+
+.topleftinnertriangle {
+    height: 35%;
+    width: 15%;
+    position: absolute;
+    background: $cyber-yellow;
+    left: 35%;
+    top: 10%;
+    clip-path: polygon(0 100%, 0 15%, 100% 0);
+}
+
+.toprightouttertriangle {
+    height: 29.7%;
+    width: 10%;
+    position: absolute;
+    background: $chinese-yellow;
+    right: 25%;
+    top: 15.25%;
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+}
+
+.topleftouttertriangle {
+    height: 29.7%;
+    width: 10%;
+    position: absolute;
+    background: $chinese-yellow;
+    left: 25%;
+    top: 15.25%;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.bottomtriangle {
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    background: $chinese-yellow;
+    left: 35%;
     top: 45%;
     clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
 
 //top = (100% - height) / 2
 //left = (100% - width) / 2//
+.largebottomtriangle {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    background: $spanish-orange;
+    left: 25%;
+    top: 45%;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
