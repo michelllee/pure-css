@@ -6,6 +6,17 @@ $rounded-rectangle: 50px;
 $triangle: polygon(50% 0%, 0% 100%, 100% 100%);
 body {
     background: $lightpink;
+    animation: BackgroundChange 3s infinite;
+}
+
+// Specify background change animation here
+@keyframes BackgroundChange {
+    from {
+        background-color: whitesmoke;
+    }
+    to {
+        background-color: red;
+    }
 }
 
 .box {
@@ -48,6 +59,7 @@ body {
     background: yellow;
     border-radius: $circle;
     z-index: 1;
+    animation: spinMe 3s infinite;
 }
 
 .ear-right {
@@ -56,9 +68,22 @@ body {
     height: 65%;
     right: -20%;
     top: 5%;
-    background: purple;
+    background: yellow;
     border-radius: $circle;
     z-index: 1;
+    animation: spinMe 3s infinite;
+}
+
+// Specify 'spinMe' animation here
+@keyframes spinMe {
+    0% {
+        transform: rotate(0deg);
+        background-color: yellow;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: blue;
+    }
 }
 
 .inner-ear {
