@@ -59,7 +59,28 @@ body {
     background: yellow;
     border-radius: $circle;
     z-index: 1;
-    animation: spinMe 3s infinite;
+    //animation: spinMe 3s infinite;
+}
+
+.ear-left-active {
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    left: -20%;
+    top: 5%;
+    background: yellow;
+    border-radius: $circle;
+    z-index: 1;
+    animation: dragMeLeft 3s 2;
+}
+
+@keyframes dragMeLeft {
+    0% {
+        left: -80%;
+    }
+    100% {
+        left: -20%;
+    }
 }
 
 .ear-right {

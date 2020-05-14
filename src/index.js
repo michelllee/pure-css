@@ -8,13 +8,18 @@ document.addEventListener('DOMContentLoaded', () => {
     let app = new Vue({
         el: '#app',
         data: {
-            earClass: 'ear-right'
+            earClass: 'ear-right',
+            earClassLeft: 'ear-left'
         },
         methods: {
             dragEarRight: function() {
                 this.earClass = 'ear-right-active'
                 setTimeout(() => { this.earClass = 'ear-right' }, 6000)
-            }
+            },
+            dragEarLeft: function() {
+                this.earClassLeft = 'ear-left-active'
+                setTimeout(() => { this.earClassLeft = 'ear-left' }, 6000)
+            },
         }
     })
 
