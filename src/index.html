@@ -11,7 +11,7 @@
 <body>
     <!-- Begin Image -->
     <!-- Invisible Box-->
-    <div class="box">
+    <div id="app" class="box">
 
         <!-- Circular Head-->
         <div class="head">
@@ -26,7 +26,7 @@
             </div>
 
             <!-- Right Ear ~ Light Gray-->
-            <div class="ear-right">
+            <div v-on:click="dragEarRight" v-bind:class="earClass">
                 <!-- Inner Ear ~ Dark Gray-->
                 <div class="inner-ear"></div>
             </div>
