@@ -7,6 +7,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
     entry: {
         koala: './src/index.js',
+        three: './src/three.js',
         pizza: './src/pizza.js',
         diamond: './src/diamond.js'
     },
@@ -77,6 +78,11 @@ module.exports = {
             chunks: ['diamond'],
             template: 'src/diamond.pug',
             filename: 'diamond.html'
+        }),
+        new HtmlWebpackPlugin({
+            chunks: ['three'],
+            template: 'src/three.html',
+            filename: 'three.html'
         }),
 
         new MiniCssExtractPlugin({

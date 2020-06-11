@@ -27,6 +27,7 @@
         "pug-html-loader": "^1.1.5",
         "sass-loader": "^8.0.0",
         "style-loader": "^1.0.1",
+        "three": "^0.117.1",
         "vue": "^2.6.11",
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.10",
