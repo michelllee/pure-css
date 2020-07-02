@@ -57,3 +57,6 @@ function animate() {
 }
 animate();
 ```
+
+https://webpack.js.org/guides/public-path/
+https://webpack.js.org/guides/asset-management/#global-assets

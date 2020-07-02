@@ -46,3 +46,22 @@ https://github.com/webpack-contrib/sass-loader
 top = (100% - height) / 2
 left = (100% - width) / 2
 ```
+
+## SkyBox
+
+- Create new folder `/images`
+- Put the six image files there:
+
+```shell
+curl -O https://opengameart.org/sites/default/files/oga-textures/28709/gloom_bk.jpg
+curl -O https://opengameart.org/sites/default/files/oga-textures/28709/gloom_ft.jpg
+curl -O https://opengameart.org/sites/default/files/oga-textures/28709/gloom_dn.jpg
+curl -O https://opengameart.org/sites/default/files/oga-textures/28709/gloom_up.jpg
+curl -O https://opengameart.org/sites/default/files/oga-textures/28709/gloom_lf.jpg
+curl -O https://opengameart.org/sites/default/files/oga-textures/28709/gloom_rt.jpg
+
+```
+
+http://localhost:8080/images/gloom_bk.jpg
+
+https://webpack.js.org/guides/public-path/
