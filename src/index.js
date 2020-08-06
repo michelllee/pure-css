@@ -56,7 +56,7 @@ function main() {
     const scene = new THREE.Scene();
 
     {
-        const color = 0xFFFFFF;
+        const color = '#ffffff';
         const intensity = 1;
         const light = new THREE.DirectionalLight(color, intensity);
         light.position.set(-1, 2, 4);
@@ -80,9 +80,9 @@ function main() {
     }
 
     const cubes = [
-        makeInstance(geometry, 0x44aa88, 0),
-        makeInstance(geometry, 0x8844aa, -2),
-        makeInstance(geometry, 0xaa8844, 2),
+        makeInstance(geometry, 0xff0000, -2),
+        makeInstance(geometry, 0x00ff00, 0),
+        makeInstance(geometry, 0x0000ff, 2),
     ];
 
     const bgScene = new THREE.Scene();
