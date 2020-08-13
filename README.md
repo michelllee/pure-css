@@ -49,6 +49,12 @@ left = (100% - width) / 2
 
 ## SkyBox
 
+### Tutorial
+
+https://redstapler.co/create-3d-world-with-three-js-and-skybox-technique/
+
+### Other Notes
+
 - Create new folder `/images`
 - Put the six image files there:
 
